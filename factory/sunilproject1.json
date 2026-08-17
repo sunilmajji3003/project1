@@ -1,0 +1,15 @@
+{
+	"name": "sunilproject1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2d6a2ac1-865c-4a99-8469-e77957228f1e",
+		"tenantId": "32fa7897-3496-49cc-a075-6a6b6cd692e2"
+	}
+}
