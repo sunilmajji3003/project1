@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfazuredataproject1"
+		},
+		"AzureDLproject1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDbProject1_password": {
+			"value": ""
+		},
+		"AzureDLproject1_properties_typeProperties_url": {
+			"value": "https://storagedataproject1.dfs.core.windows.net/"
+		},
+		"AzureSqlDbProject1_properties_typeProperties_server": {
+			"value": "dbserverproject1.database.windows.net"
+		},
+		"AzureSqlDbProject1_properties_typeProperties_database": {
+			"value": "databaseproject1"
+		},
+		"AzureSqlDbProject1_properties_typeProperties_userName": {
+			"value": "adminsunil"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
