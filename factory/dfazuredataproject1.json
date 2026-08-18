@@ -1,0 +1,15 @@
+{
+	"name": "dfazuredataproject1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1dbac7be-38c1-46a4-8da5-3960c19e62af",
+		"tenantId": "32fa7897-3496-49cc-a075-6a6b6cd692e2"
+	}
+}
