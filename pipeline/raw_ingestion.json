@@ -109,7 +109,10 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"container": "bronze",
-							"folder": "cdc",
+							"folder": {
+								"value": "@{pipeline().parameters.table}.cdc",
+								"type": "Expression"
+							},
 							"files": "cdc json.json"
 						}
 					},
@@ -246,7 +249,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"container": "bronze",
-										"folder": "cdc",
+										"folder": "DimUser.cdc",
 										"files": "empty json.json"
 									}
 								}
@@ -257,7 +260,10 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"container": "bronze",
-										"folder": "cdc",
+										"folder": {
+											"value": "@{pipeline().parameters.table}.cdc",
+											"type": "Expression"
+										},
 										"files": "cdc json.json"
 									}
 								}
