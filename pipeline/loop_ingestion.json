@@ -143,7 +143,7 @@
 							"typeProperties": {
 								"variableName": "current",
 								"value": {
-									"value": "@utcNow()",
+									"value": "@formatDateTime(utcNow(),'yyyy-mm-dd HH:mm:ss')",
 									"type": "Expression"
 								}
 							}
@@ -324,7 +324,7 @@
 						"activity": "ForEach1",
 						"dependencyConditions": [
 							"Failed",
-							"Skipped"
+							"Succeeded"
 						]
 					}
 				],
